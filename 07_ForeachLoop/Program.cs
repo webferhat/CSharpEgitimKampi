@@ -10,7 +10,7 @@ namespace _07_ForeachLoop
     {
         static void Main(string[] args)
         {
-            //
+            ////
         }
     }
 }
