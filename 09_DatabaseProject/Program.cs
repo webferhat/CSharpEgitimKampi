@@ -17,7 +17,8 @@ namespace _09_DatabaseProject
             Console.Write("tablo numarası girin: ");
             tableNumber= Console.ReadLine();
 
-            SqlConnection connection = new SqlConnection("Data Source=ASUS-PROART;initial Catalog=EgitimKampiDb;integrated security=true");
+            //SqlConnection connection = new SqlConnection("Data Source=ASUS-PROART;initial Catalog=EgitimKampiDb;integrated security=true");
+            SqlConnection connection = new SqlConnection("Data Source=E06H14M054;initial Catalog=EgitimKampiDb;integrated security=true");
             connection.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM TblCategory", connection);
             SqlDataAdapter adapter = new SqlDataAdapter(command);
