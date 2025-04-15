@@ -16,7 +16,7 @@ namespace _10_DatabaseCrud
             //Console.Write("Eklenecek kategori adı: ");
             //string categoryName = Console.ReadLine();
 
-            //SqlConnection connection = new SqlConnection("Data Source=E06H14M054;initial catalog=EgitimKampiDb;integrated security=true");
+            //SqlConnection connection = new SqlConnection("Data Source=###;initial catalog=EgitimKampiDb;integrated security=true");
 
             //connection.Open();
             //SqlCommand command = new SqlCommand("INSERT INTO TblCategory (CategoryName) values (@p1)", connection);
